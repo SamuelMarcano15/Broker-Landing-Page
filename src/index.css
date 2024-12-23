@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Light.ttf') format('truetype');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-Light.ttf') format('truetype');
+  font-weight: lighter;
+}
+
+
+body{
+  font-family:'PlusJakartaSans', system-ui, sans-serif !important; 
+  background-color: #171921 !important;
+}
+
+p{
+  margin: 0;
+  font-family:'Inter', system-ui, sans-serif !important; 
+}
+
+.button{
+  padding: 0.75rem; 
+margin-top: 1rem; 
+border-radius: 0.5rem; 
+width: max-content; 
+font-weight: 500; 
+color: #ffffff; 
+background-color: #3B82F6; 
+transition-property: all;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 300ms; 
+text-decoration: none;
+}
+
+.button:hover {
+  background-color: #1D4ED8; 
+  }
+
+ 
+
+/*Nav bar user*/
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #181a1e;
+    box-shadow: 1px 1px 6px 1px #2323234f;
+  z-index: 100;
+}

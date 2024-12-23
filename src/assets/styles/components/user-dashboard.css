@@ -1,0 +1,335 @@
+.container-dashboard-user {
+    
+    margin-top: 30px;
+}
+
+.container-dashboard-user .title{
+    color: #d6d6d6;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.btn-mobile-bar{
+    display: flex;
+}
+
+.container-dashboard-user .balance-user{
+    font-weight: 700;
+    font-size: 22px;
+    color: #e3e3e3;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container-dashboard-user .btn{
+    font-weight: 600;
+    height: 38px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 150px;
+}
+.container-dashboard-user  .btn-primary{
+    background: #284d53;
+    border: none;
+}
+
+.container-dashboard-user  .btn-primary:hover{
+    background: #183439;
+}
+
+.container-dashboard-user .content-row{
+    background: #202a3f;
+    margin: 0 20px;
+    border-radius: 8px;
+}
+
+.container-dashboard-user .btn-secondary{
+    background: #252a2d;
+}
+
+.container-dashboard-user .btn-secondary:hover{
+    background: #151b1e;
+}
+
+.container-dashboard-user label, .container-dashboard-user small{
+    color: white;
+}
+
+.list-user-deposit p{
+    color: white;
+}
+.container-dashboard-user .deposit-detail{
+    transition: all 0.3s ease;
+}
+.container-dashboard-user .deposit-detail:hover{
+    background: #141b2e;
+}
+
+.container-dashboard-user .deposit-detail{
+    cursor: pointer;
+}
+.container-dashboard-user .content-personal label{
+    font-weight: 600;
+}
+
+.container-dashboard-user .content-personal{
+    color: white;
+}
+
+.container-field-phone input{
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    color: white;
+}
+
+.form-user-modal .modal-body .form-control{
+    background: #474e61 ;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    border: none;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.form-user-modal .modal-body .form-control:hover, .form-user-modal .modal-body .form-control:focus,
+.container-field-phone:hover, .container-field-phone:focus{
+    background: #3a476b;
+}
+
+.form-user-modal .modal-body input::placeholder{
+    color: white;
+}
+
+.container-field-phone{
+    background: #474e61;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+}
+
+.list-operations-user .content-trade{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.list-operations-user .content-trade .winner{
+    font-weight: 600;
+    color: #27b781;
+}
+
+.list-operations-user .header-table{
+    display: none;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0 9px;
+    color: #d1d1d1;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.list-operations-user .content-trade{
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.list-operations-user .content-trade:hover{
+    background: #1b2229bf;
+    cursor: pointer;
+}
+
+.list-operations-user .content-trade {
+    display: grid; 
+    padding: 20px;
+    background: #2c323f;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "asset amount"
+      "income direction";
+  }
+
+  .deposit-detail{
+    color: white;
+  }
+
+.list-operations-user .asset, .list-operations-user .amount{
+    padding-bottom: 8px;
+}
+
+  .list-operations-user .content-trade label{
+    font-weight: 800;
+  }
+
+  .list-operations-user .content-trade .direction, .list-operations-user .content-trade .income{
+    border-top: 2px solid rgb(144, 157, 168);
+    margin-top: 1px;
+    padding-top: 10px;
+  }
+
+  .income { grid-area: income; }
+  .asset { grid-area: asset; }
+  .amount { grid-area: amount; }
+  .direction { grid-area: direction; }
+
+
+  .container-dashboard-admin input{
+    background: #474e61;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    border: none;
+    box-shadow: none;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+
+  .container-dashboard-admin input::placeholder{
+    color: white;
+  }
+
+  .container-dashboard-admin input:hover, .container-dashboard-admin input:focus{
+    background: #3a476b;
+    color: white;
+  }
+
+  .body-admin-table .body-elm{
+    transition: all 0.3s ease;
+    padding: 10px 5px ;
+    border-radius: 7px;
+    margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.body-admin-table .body-elm:hover{
+    background: #39425d;
+}
+
+.thead-table-admin{
+    display: none;
+}
+
+.badge-user{
+    color: white;
+    /* border: 65px; */
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.badge-active{
+    background: green;
+
+}
+
+.badge-block{
+    background: #b32323;
+}
+  
+
+@media(min-width:992px){
+    .btn-mobile-bar{
+        display: none;
+    }
+    .list-operations-user .header-table{
+        display: grid;
+    }
+    .list-operations-user .content-trade label{
+        display: none;
+    }
+
+    .list-operations-user .asset, .list-operations-user .amount{
+        padding-bottom: 0px;
+    }
+
+    .list-operations-user .content-trade{
+        background: transparent;
+        border-radius: 0px;
+        padding: 0px;
+        margin-top: 0px;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        grid-template-areas: 
+        "asset amount direction income";
+        border-top: 1px solid white;
+        padding:  0 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    transition: all 0.3s ease;
+    }
+
+    .list-operations-user .content-trade .direction, .list-operations-user .content-trade .income{
+        border-top: none;
+        margin-top: 0px;
+        padding-top: 0px;
+      }
+
+      .thead-table-admin{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        color: white;
+        font-weight: 600;
+      }
+
+      .body-admin-table .body-elm label{
+        display: none;
+      }
+
+      .body-admin-table .body-elm{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        color: rgb(206, 206, 206);
+        font-size: 14px;
+      }
+
+      .container-dashboard-admin .body-admin{
+        color: white;
+      }
+
+      .container-dashboard-admin .body-admin label{
+        display: none;
+      }
+}
+
+@media(max-width:991px){
+    .body-admin-table .body-elm label{
+        font-weight: 600;
+    }
+.body-admin-table .body-elm p{
+    color:#ededed;
+}
+
+.body-elm{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 8px 0px; 
+    color: white;
+    text-decoration: none;
+    background: #1c2130;
+    grid-template-areas: 
+      "name name"
+      "email email"
+      "balance balance"
+      "updated updated"; 
+  }
+
+
+  .body-admin-table .body-elm .name { grid-area: name; padding-bottom: 5px; border-bottom:2px solid rgb(146, 146, 146)}
+  .body-admin-table .body-elm .email { grid-area: email; padding-bottom: 5px; border-bottom:2px solid rgb(146, 146, 146) }
+  .body-admin-table .body-elm .balance { grid-area: balance; padding-bottom: 5px; border-bottom:2px solid rgb(146, 146, 146)}
+  .body-admin-table .body-elm .updated { grid-area: updated; }
+}

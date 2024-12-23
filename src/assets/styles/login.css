@@ -1,0 +1,97 @@
+
+.login-user-page .password-eye{
+    position: absolute;
+    bottom: 9px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    outline: 0;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-user-page input{
+    background-color: #192229;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    transition: all 0.3s ease;
+    color:white;
+    border: 1px solid white;
+}
+.login-user-page input::placeholder{
+   
+    color: white !important;
+}
+
+.login-user-page input:focus{
+    background-color: #212529;
+    color: white;
+    border: 1px solid rgb(122, 122, 122);
+    box-shadow: none;
+}
+
+.login-user-page .field {
+    position: relative;
+}
+
+.login-user-page .field svg{
+    fill:white;
+    width: 21px;
+}
+
+.login-user-page .password-eye svg{
+    fill: white !important;
+}
+
+.login-user-page .field label{
+    position: absolute;
+    margin: 0;
+    top: 11px;
+    left: 11px;
+    bottom: 0;
+    display: flex;
+}
+
+.login-user-page .field input{
+    padding: 10px;
+}
+
+.login-user-page .field input{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.login-user-page .field-input-phone{
+    background-color: #192229;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    transition: all 0.3s ease;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: max-content;
+    padding-left: 10px;
+}
+
+.login-user-page .field-input-phone input{
+    background-color: transparent;
+    border: none;
+    height: 36px;
+}
+
+.login-user-page input[type="date"]{
+    color-scheme: dark;
+}
+
+.login-user-page .btn-primary{
+    background: #284d53;
+    border: none;
+}
+
+.login-user-page .btn-primary:hover{
+    background: #183439;
+}

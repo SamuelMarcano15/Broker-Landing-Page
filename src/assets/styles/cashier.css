@@ -1,0 +1,52 @@
+.cashier-container .container-content{
+    background:#293041;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.select-cashier{
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    background: #16181c;
+    color: white;
+}
+
+.deposit-detail{
+    background: #1c253b;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #4f969c;
+}
+
+
+.checkout-popup{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #0a0a0a9c;
+}
+
+
+.modal-crypto .modal-content{
+    background: #2d3543;
+    color: white;
+}
+
+.modal-crypto .btn-close{
+    filter: invert(1);
+}
+
+.form-withdraw select,
+.form-withdraw input{
+    border:1px solid #4f969c;
+    background: #1c253b;
+    color: white;
+    padding: 5px 5px;
+    outline: 0;
+    border-radius: 8px;
+}
+
+.form-withdraw input::placeholder{
+    color: rgb(189, 189, 189);
+}

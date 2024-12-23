@@ -1,0 +1,9 @@
+.video-plataformDemo{
+    max-width: 1400px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: translateY(0);
+}
+

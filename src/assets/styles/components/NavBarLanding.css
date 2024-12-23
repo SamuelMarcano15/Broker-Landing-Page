@@ -1,0 +1,114 @@
+.navBar{
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: transparent;
+    padding: 14px 0;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+.navBar.scrolled {
+    position: fixed;
+    padding: 50px; /* Ajustar según tus necesidades */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.555);
+    background-color: #121216be;
+    border-radius: 20px;
+    height: 150px;
+    border-color: #ffffff;
+    border: solid 3px;
+  }
+ 
+
+.logo-broker{
+    padding-right: 100px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.navbar_items{
+ margin-top: 15px;
+}
+
+.nav_links{
+    margin-top: 10px;
+    font-size: 20px;
+}
+ .nav_links .nav-link{
+    padding-left: 56px;
+    color: #ffffff;
+}
+.nav_links .nav-link:hover{
+    transition: color 0.3s ease;
+    color: #007bff;
+}
+ 
+
+.btns_login-register{
+    padding-right: 40px;
+    padding-left: 16px;
+}
+
+.btns_login-register .btn-login{
+    padding-top: 10px;
+    background-color: #2B303F;
+    margin-right: 15px;
+    font-size: 20px;
+    height: 55px;
+    width: 180px;
+}
+.btns_login-register .btn-login:hover{
+    transition: color 0.3s ease;
+    background-color: #363c49;
+}
+
+.btns_login-register .btn-register{
+    background-color: #25AE5F;
+    padding-top: 10px;
+    font-size: 20px;
+    height: 55px;
+    width: 180px;
+}
+.btns_login-register .btn-register:hover{
+    transition: color 0.3s ease;
+    background-color: #26c468;
+}
+
+.btn_ChangeLanguage{
+    margin-top: 10px;
+    margin-right: 36px;
+    font-size: 20px;
+    cursor: pointer
+}
+
+
+.btn_ChangeLanguage svg{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.dropdown-menu{
+    width: 350px;
+    height: auto;
+    margin-top: 24px !important; 
+    background-color: #50586e !important;
+}
+
+.dropdown-menu .dropdown-item{
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}

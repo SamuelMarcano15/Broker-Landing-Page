@@ -1,0 +1,164 @@
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content-bg{
+    background: #272c3f;
+    min-height: 100vh;
+}
+
+.thead-asset{
+    display: none;
+}
+
+.asset-elm{
+    color: white;
+}
+
+.asset-elm{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    cursor: pointer;
+    grid-template-areas: 
+      "name profit"
+      "type type"
+      "updated updated"; 
+      color:white;
+      padding: 15px;
+      border-radius: 15px;
+      transition: all 0.3s ease;
+  }
+
+.body-asset{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+  .asset-elm label{
+    font-weight: 800;
+    
+  }
+
+  .form-label{
+    font-weight: 600;
+    color: white;
+  }
+
+  .form-modal-asset .modal-title {
+    color: white;
+  }
+
+.form-modal-asset .modal-header .btn-close{
+    filter:invert(1);
+}
+
+  .form-modal-asset .modal-content{
+    background: #282c37;
+  }
+
+
+
+  .asset-elm:hover{
+    background: #3e4041;
+  }
+
+
+  .asset-elm .name { grid-area: name; }
+  .asset-elm .profit { grid-area: profit; }
+  .asset-elm .type { grid-area: type; }
+  .asset-elm .updated { grid-area: updated; }
+
+.asset-elm{
+  background: #1c2130;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.asset-elm:hover{
+  background:#39425d ;
+}
+
+.form-assets-admin .form-control,
+.form-withdraw-admin .form-control{
+  background: #474e61;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    border: none;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.form-user-modal .modal-body input[type="date"]{
+  color-scheme: dark !important;
+}
+
+.form-assets-admin .form-control:hover,
+.form-assets-admin .form-control:focus,
+.form-withdraw-admin .form-control:hover,
+.form-withdraw-admin .form-control:focus{
+  background: #3a476b;
+
+}
+
+@media(max-width:992px){
+  
+  .asset-elm .type, .asset-elm .updated{
+    border-top: 2px solid;
+    margin-top: 4px;
+    padding-top: 4px;
+  }
+
+  .asset-elm .type{
+    margin-top: 2px;
+  }
+}
+
+@media(min-width:992px){
+    .thead-asset, .asset-elm{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:"name profit type updated";        
+        color: white;
+        font-weight: 600;
+    }
+
+    .asset-elm{
+        padding: 0px;
+        grid-template-rows: 1fr;
+        border-radius: 8px;
+        background: transparent;
+    }
+
+    .asset-elm{
+      padding: 10px 5px;
+      margin-bottom: 5px;
+    }
+    
+    .thead-asset p{
+        text-align: center;
+        background: #24282b;
+        padding: 5px 10px;
+        border: 1px solid;
+    }
+
+    .asset-elm label{
+        display: none;
+    }
+
+    .asset-elm .item{
+        padding: 3px 3px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .body-asset{
+        gap: 0px;
+    }
+
+}

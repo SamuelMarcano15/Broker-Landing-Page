@@ -1,0 +1,24 @@
+.section-contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact h1, .section-contact p, .section-contact a{
+    color: white;
+    text-decoration: none;
+} 
+
+.title-contact{
+    font-size: 2.6em;
+    font-weight: 800;
+    margin: 0;
+}
+
+.subtitle-contact{
+    margin-top: 40px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: white;
+}
